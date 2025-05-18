@@ -1,10 +1,13 @@
 import "./App.scss";
-
+import {motion} from "framer-motion";
 function App() {
   return (
     <>
+    
       <header>
-        <h1>It's a SASSY day</h1>
+        
+        <h1 className="slide-in">It's a SASSY day</h1>
+        
         <ul>
           <li>Home</li>
           <li>About Us</li>

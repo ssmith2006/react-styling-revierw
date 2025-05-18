@@ -69,5 +69,18 @@ main h2{
   font-family: cursive;
   background-color: $muted;
   color: $highlight;
+}
 
+.slide-in{
+    transform: translateX(-100%);
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide{
+    to {
+        transform: translate(0);
+    }
 }

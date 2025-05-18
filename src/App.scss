@@ -1,0 +1,73 @@
+@use "./Styles/variables" as *;
+
+
+body{
+  header{
+    background-color: $secondary;
+    color: white;
+  }
+}
+footer{
+  background-color: $primary;
+  padding: 10px;
+  p{
+    color: white;
+    font-family: cursive;
+  }
+}
+
+body{
+  header{
+    font-size: 1rem;
+    font-family: cursive;
+    padding: 30px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  ul{
+    display: flex;
+    gap: 10px; 
+    li{
+      background-color: $highlight ;
+      box-shadow: 10px 10px 3px rgb(194, 165, 169);
+      padding: 10px
+    }
+  }  
+  }
+}
+.section-one{
+  p{
+   padding: 10px;
+   color: $primary;
+   font-size:larger;
+   font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+  }
+}
+
+.section-two{
+  p{
+    padding: 10px;
+    color: $primary;
+    font-size:larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+  }
+}
+
+.section-three{
+  p{
+   padding: 10px;
+   color: $primary;
+   font-size:larger;
+   font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+  }
+}
+
+main h2{
+  padding: 8px;
+  font-size: 2rem;
+  font-family: cursive;
+  background-color: $muted;
+  color: $highlight;
+
+}

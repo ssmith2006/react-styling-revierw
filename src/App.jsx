@@ -1,13 +1,12 @@
 import "./App.scss";
-import {motion} from "framer-motion";
+import BSForm from "./BSForm";
+
 function App() {
   return (
     <>
-    
-      <header>
-        
+      <header className="smallScreen">
         <h1 className="slide-in">It's a SASSY day</h1>
-        
+
         <ul>
           <li>Home</li>
           <li>About Us</li>
@@ -85,7 +84,11 @@ function App() {
             repudiandae porro ipsa nobis. Corrupti doloremque ad cumque
             excepturi, ab et consectetur ea.
           </p>
+          
         </section>
+        <div className="form-wrapper">
+          <BSForm className="my-form" />
+        </div>
       </main>
       <footer>
         <p>&copy; 2025 We Seaux Sassy. All Rights Reserved</p>

@@ -1,4 +1,5 @@
 @use "./Styles/variables" as *;
+@import 'bootstrap/scss/bootstrap';
 
 
 body{
@@ -84,3 +85,28 @@ main h2{
         transform: translate(0);
     }
 }
+
+.form-wrapper{
+  padding: 50px;
+  background-color: $highlight;
+}
+.myform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-button{
+  background-color: $primary;
+  padding: 8px 16px
+}
+
+@media (min-width: 900px){
+  body{
+    display: flex;
+      width: 100%;
+      margin: 64px;
+      font-size: 20px;
+  }
+} 
+
+
